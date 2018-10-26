@@ -1,0 +1,1 @@
+int my_strcspn(const char * string1, const char * string2);

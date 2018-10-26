@@ -1,0 +1,3 @@
+gcc -c func.c -o libfunc.a
+gcc lab07.c -L. -lfunc -o lab07s
+./lab07s in_1.txt 2 1

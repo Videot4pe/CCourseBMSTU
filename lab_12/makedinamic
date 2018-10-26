@@ -1,0 +1,4 @@
+gcc -std=c99 -Wall -Werror -c func.c
+gcc -shared func.o -Wl,--subsystem,windows -o libfunc.dll
+gcc -std=c99 -Wall -Werror -c lab07.c
+gcc lab07.o -L. -lfunc -o lab07d.exe
